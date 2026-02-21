@@ -1,0 +1,18 @@
+import numpy as np
+
+# Creamos una matriz de ejemplo
+arr2 = np.array([[10, 20, 30],
+                 [5, 15, 25],
+                 [2, 8, 12]])
+
+print("Hola mundo")
+print("Matriz:\n", arr2)
+
+# 📊 Medidas generales (sobre toda la matriz)
+print("Media: ", arr2.mean())
+print("Valor máximo: ", arr2.max())
+print("Valor mínimo: ", arr2.min())
+
+# 📌 Mínimos por eje
+print("Valores mínimos en columnas:", np.amin(arr2, axis=0))
+print("Valores mínimos en filas:", np.amin(arr2, axis=1))
