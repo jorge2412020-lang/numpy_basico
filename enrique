@@ -1,0 +1,17 @@
+# Importamos numpy como np (SIEMPRE)
+import numpy as np
+
+# Creamos una lista de Python
+lista = [0, 1, 2, 3, 4]
+
+# Convertimos la lista a un arreglo de Numpy
+array_1d = np.array(lista)
+
+# Checamos el tipo de dato de array_1d
+print(type(array_1d))
+
+# Tipo de un número decimal en Python
+print(type(1.2))
+
+# Contenido del arreglo
+print(array_1d)
